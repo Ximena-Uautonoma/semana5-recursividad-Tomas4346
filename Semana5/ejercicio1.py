@@ -22,6 +22,7 @@ def contar_recursivo(n):
         return [1]
     else:
         return contar_recursivo(n-1)+[n]
+
     
         
 
